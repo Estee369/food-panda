@@ -2,3 +2,40 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+span {
+    color: rgba(16,174,251,255);
+}
+
+h1 {
+    font-weight: 900;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-image: linear-gradient(to left, rgba(4,141,247,254), rgba(19,184,252,254));
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.div-width {
+    width: 50%;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 5px;
+    color: rgb(95, 93, 93);
+    
+}
+
+.div-width img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
