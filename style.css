@@ -52,10 +52,10 @@ h1 {
     margin-right: auto;
 }
 
-.back-g-imag {
-    background-image: url(Final/shape1.png);
+
+.backg-img1 {
+    background-image: url(Final/cool-background.png);
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .text-ali-heading {
