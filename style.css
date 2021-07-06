@@ -10,10 +10,22 @@ h1 {
     font-weight: 900;
 }
 
-section {
+.block {
     display: flex;
     margin-bottom: 100px;
 }
+
+.f-size {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.top-padding {
+    padding-top: 100px;
+}
+
+
 
 .button {
     background-image: linear-gradient(to left, rgba(4,141,247,254), rgba(19,184,252,254));
@@ -34,7 +46,7 @@ section {
 }
 
 .div-width img {
-    width: 60%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,6 +55,40 @@ section {
 .back-g-imag {
     background-image: url(Final/shape1.png);
     background-position: center;
-    
+    background-repeat: no-repeat;
+}
 
+.text-ali-heading {
+    text-align: center;
+}
+.text-ali {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.food-menu {
+    box-shadow: 0 0 15px 5px  rgb(216, 210, 210);
+    width: 33%;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.img-position {
+    width: 90%;
+    margin: 10px;
+    display: block;
+    background-position: center;
+    border: 10px white solid;
+    border-radius: 25px;
+}
+
+.menu-box {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-color {
+    color: rgb(95, 93, 93);
 }
