@@ -3,6 +3,31 @@ body {
     margin: 0;
 }
 
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+li a:hover {
+    color: teal;
+}
+
+
+ul {
+    background-image: linear-gradient(to left, rgba(4,141,247,254), rgba(19,184,252,254));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+.navbar {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
 span {
     color: rgba(16,174,251,255);
 }
